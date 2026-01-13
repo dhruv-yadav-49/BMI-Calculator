@@ -1,28 +1,42 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: yellowgreen;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-
 .container {
     background-color: white;
-    width: 400px;
-    height: 350px;
-    border-radius: 8px;
+    border-radius: 10px;
+    width: 550px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-.header {
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    margin-bottom: 10px;
+}
+
+.author {
+    margin-bottom: 20px;
+}
+
+/* .header {
     background-color: blue;
     border-radius: 8px 8px 0 0;
     color: white;
@@ -37,7 +51,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 } */
-
+/* 
 #textarea {
     width: 90%;
     height: 200px;
@@ -60,4 +74,4 @@ button {
 
 .output {
     margin-bottom: 10px;
-}
+} */
